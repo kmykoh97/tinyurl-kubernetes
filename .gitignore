@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+*.pot
+*.pyc
+__pycache__/
+settings_local.py
+.env
+db.sqlite3
