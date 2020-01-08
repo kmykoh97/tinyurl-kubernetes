@@ -1,0 +1,9 @@
+sudo kubectl delete service --all
+sudo kubectl apply -f redis-deployment.yaml
+sudo kubectl apply -f redis-service.yaml
+sudo kubectl apply -f postgres-pvc.yaml
+sudo kubectl apply -f postgres-configmap.yaml
+sudo kubectl apply -f postgres-deployment.yaml
+sudo kubectl apply -f postgres-service.yaml
+sudo kubectl apply -f frontend-deployment.yaml
+sudo kubectl apply -f frontend-service.yaml
